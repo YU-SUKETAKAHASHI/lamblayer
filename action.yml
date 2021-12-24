@@ -1,0 +1,17 @@
+name: 'lamblayer'
+author: 'takahashi@adansons.co.jp'
+description: 'A minimal deployment tool for AWS Lambda layers.'
+inputs:
+  version:
+    description: "A version of lamblayer"
+    default: "v0.1.0"
+runs:
+  using: "composite"
+  steps:
+    - uses: actions/setup-python@v2
+      with:
+        python-version: 3.9
+    - run: |
+        pip install wheel
+        pip install git+https://github.com/YU-SUKETAKAHASHI/lamblayer.git@${{ inputs.version }}
+      shell: bash

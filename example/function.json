@@ -1,0 +1,8 @@
+{
+    "FunctionName": "lamblayer_test",
+    "Layers": [
+        "arn:aws:lambda:ap-northeast-1:249908578461:layer:AWSLambda-Python38-SciPy1x:29",
+        "my_layer",
+        "packages_layer"
+    ]
+}

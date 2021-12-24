@@ -1,0 +1,10 @@
+{
+    "LayerName": "my_layer",
+    "Description": "self made packages",
+    "CompatibleRuntimes": [
+        "python3.7",
+        "python3.8",
+        "python3.9"
+    ],
+    "LicenseInfo": ""
+}
