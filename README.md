@@ -129,6 +129,7 @@ Creating a layer of pip-installable python packages, spesify packages config fil
 lamblayer create --packages packages.json --layer layer.json
 ```
 
+`Note: This option is currently not available. Coming soon!!`
 
 2. from local directory
 
